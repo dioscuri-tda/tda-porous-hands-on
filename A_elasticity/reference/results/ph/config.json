@@ -1,0 +1,36 @@
+{
+  "dataset": "dataset.csv",
+  "targets": [
+    "C_xx_xx",
+    "C_yy_yy",
+    "C_zz_zz",
+    "C_xx_yy",
+    "C_xx_zz",
+    "C_yy_zz",
+    "C_yz_yz",
+    "C_xz_xz",
+    "C_xy_xy",
+    "C_xx_xy",
+    "C_yy_xy",
+    "C_xx_xz",
+    "C_zz_xz",
+    "C_yy_yz",
+    "C_zz_yz"
+  ],
+  "features": [
+    "ph"
+  ],
+  "directions": [],
+  "label": "ph",
+  "outdir": "results",
+  "seed": 0,
+  "val_frac": 0.2,
+  "test_frac": 0.2,
+  "iterations": 1000,
+  "learning_rate": 0.05,
+  "depth": 4,
+  "early_stopping": 100,
+  "rsm": 0.16534391534391535,
+  "threads": 14,
+  "n_features": 3024
+}

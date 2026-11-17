@@ -1,0 +1,10 @@
+# Python >= 3.10. No deep-learning framework is needed.
+numpy>=1.26,<2.3
+scipy>=1.11
+pandas>=2.0
+numba>=0.60
+gudhi>=3.10
+catboost>=1.2.3
+scikit-learn>=1.4
+matplotlib>=3.8
+tqdm>=4.66

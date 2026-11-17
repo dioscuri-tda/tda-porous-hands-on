@@ -1,0 +1,20 @@
+The data in this repository - the structures and label tables in
+A_elasticity/data and B_permeability/data, the precomputed descriptor tables
+and reference results in A_elasticity/reference and B_permeability/reference,
+and the images in A_elasticity/figures and B_permeability/figures - are
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
+
+The structures and labels are subsets of the datasets published with
+
+  R. Topolnicki, M. Bogdan, J. Malinowski, B. Naskrecki, M. Haranczyk, P. Dlotko,
+  "Direction-aware topological descriptors for elastic stiffness tensor
+  prediction in porous materials", arXiv:2604.08105
+  https://github.com/dioscuri-tda/direction-aware-tda-for-porous-materials
+
+  R. Topolnicki, P. Dlotko, M. Matyka,
+  "Permeability tensor of anisotropic porous media from directional
+  pore-space topology"
+  https://github.com/dioscuri-tda/perm-tensor-topology
+
+Please cite the corresponding paper when using them.

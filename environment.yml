@@ -1,0 +1,16 @@
+# conda env create -f environment.yml && conda activate tda-porous
+# (alternative to the pip/venv route described in the README; no PyTorch needed)
+name: tda-porous
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pandas
+  - numba
+  - gudhi
+  - catboost
+  - scikit-learn
+  - matplotlib
+  - tqdm

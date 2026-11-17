@@ -1,0 +1,28 @@
+{
+  "dataset": "dataset.csv",
+  "targets": [
+    "K_xx",
+    "K_yy",
+    "K_zz",
+    "k_xy",
+    "k_xz",
+    "k_yz"
+  ],
+  "features": [
+    "ph",
+    "thr"
+  ],
+  "directions": [],
+  "label": "ph+thr",
+  "outdir": "results",
+  "seed": 0,
+  "val_frac": 0.2,
+  "test_frac": 0.2,
+  "iterations": 1000,
+  "learning_rate": 0.05,
+  "depth": 4,
+  "early_stopping": 100,
+  "rsm": 0.09259259259259259,
+  "threads": 14,
+  "n_features": 5400
+}
